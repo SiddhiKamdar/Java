@@ -1,0 +1,39 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore build and compiled output
+**/build/
+**/dist/
+**/target/
+
+# Ignore NetBeans project files
+**/nbproject/private/
+**/nbproject/build-impl.xml
+**/nbproject/genfiles.properties
+**/nbproject/nb-configuration.xml
+
+# Ignore test output
+**/test/build/
+**/test/*.class
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore JAR/WAR/EAR files if not required
+*.jar
+*.war
+*.ear
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and configuration files
+.env
+db.properties
+application.properties
+application.yml
+
+# Ignore driver files folder
+.Driver Files/
