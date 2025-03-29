@@ -43,7 +43,7 @@ public class TxMgmt {
         }
         
         if(flag == true){
-            con.rollback(); // Transaction aborted
+            con.rollback(); // Transaction abort
             System.out.println("Transaction rolled back");
         }
         else{
