@@ -1,39 +1,102 @@
-# Ignore compiled Java class files
+# ----------------------------------------
+# Java and Build Output
+# ----------------------------------------
 *.class
+*.jar
+*.war
+*.ear
 
-# Ignore build and compiled output
+# Build directories
 **/build/
 **/dist/
 **/target/
 
-# Ignore NetBeans project files
+# ----------------------------------------
+# NetBeans Specific
+# ----------------------------------------
 **/nbproject/private/
 **/nbproject/build-impl.xml
 **/nbproject/genfiles.properties
 **/nbproject/nb-configuration.xml
 
-# Ignore test output
-**/test/build/
-**/test/*.class
+# ----------------------------------------
+# IntelliJ IDEA
+# ----------------------------------------
+*.iml
+.idea/
 
-# Ignore temporary files
-*.log
-*.tmp
+# ----------------------------------------
+# Eclipse
+# ----------------------------------------
+*.iws
+*.bak
+*.ipr
+.settings/
 
-# Ignore JAR/WAR/EAR files if not required
-*.jar
-*.war
-*.ear
+# ----------------------------------------
+# VS Code
+# ----------------------------------------
+.vscode/
 
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
+# ----------------------------------------
+# Gradle
+# ----------------------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
 
-# Ignore environment and configuration files
+# ----------------------------------------
+# Maven
+# ----------------------------------------
+.mvn/
+!**/.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+# ----------------------------------------
+# Spring Boot
+# ----------------------------------------
+# Ignore DevTools restart-specific files
+.spring-boot-devtools.properties
+
+# Environment and Config Files
 .env
 db.properties
 application.properties
 application.yml
+application-dev.properties
+application-dev.yml
+application-test.properties
+application-test.yml
 
-# Ignore driver files folder
+# ----------------------------------------
+# Temporary and Log Files
+# ----------------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+logs/
+
+# Test build output
+**/test/build/
+**/test/*.class
+
+# ----------------------------------------
+# Embedded DB Files
+# ----------------------------------------
+*.h2.db
+*.mv.db
+*.trace.db
+
+# ----------------------------------------
+# System Files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Custom Folders (you mentioned)
+# ----------------------------------------
 .Driver Files/
+.metadata/
