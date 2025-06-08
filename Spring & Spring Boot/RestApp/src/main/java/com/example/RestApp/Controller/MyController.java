@@ -17,4 +17,9 @@ public class MyController {
 	public String sayBonjour() {
 		return "Bonjour Le Monde!!";
 	}
+	
+	@GetMapping("/bye")
+	public String sayBye() {
+		return "BBye!!";
+	}
 }
