@@ -8,7 +8,6 @@ public class Student {
 	public Student() {
 		
 	}
-	
 	public Student(String firstName, String lastName) {
 		super();
 		this.firstName = firstName;
