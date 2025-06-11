@@ -11,4 +11,8 @@ public interface StudentDao {
 	public Student findById(Integer id);
 	
 	public List<Student> findAll();
+	
+	public void update(Student student);
+	
+	public void deleteById(Integer id);
 }
